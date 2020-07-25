@@ -1,0 +1,145 @@
+\hypertarget{class_barycenter}{}\doxysection{Barycenter Class Reference}
+\label{class_barycenter}\index{Barycenter@{Barycenter}}
+
+
+\mbox{\hyperlink{class_molecule}{Molecule}} Class.  
+
+
+
+
+{\ttfamily \#include $<$P\+D\+Bbarycenter.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_barycenter_a925b131e4fa41f0a31e00ba8d2b030da}\label{class_barycenter_a925b131e4fa41f0a31e00ba8d2b030da}} 
+\mbox{\hyperlink{class_barycenter_a925b131e4fa41f0a31e00ba8d2b030da}{Barycenter}} ()
+\begin{DoxyCompactList}\small\item\em First constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_barycenter_aed3ef68d838fba1b65cb9fa3af025290}{Barycenter}} (int b\+Num, double x, double y, double z, double Bx, double By, double Bz, double Sx, double Sy, double Sz, double Px, double Py, double Pz)
+\begin{DoxyCompactList}\small\item\em Second constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a6ff56c0d8bcfcbef06158db02a89d362}\label{class_barycenter_a6ff56c0d8bcfcbef06158db02a89d362}} 
+\mbox{\hyperlink{class_barycenter_a6ff56c0d8bcfcbef06158db02a89d362}{$\sim$\+Barycenter}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a26b4cc1835ee55ca04fcf74f0f74cd50}\label{class_barycenter_a26b4cc1835ee55ca04fcf74f0f74cd50}} 
+\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$ \mbox{\hyperlink{class_barycenter_a26b4cc1835ee55ca04fcf74f0f74cd50}{Get\+Next}} ()
+\begin{DoxyCompactList}\small\item\em Get the next \mbox{\hyperlink{class_barycenter}{Barycenter}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_barycenter_abb3908727436e76dd018597880b984f7}{Get\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Get the first. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a4441e368b3d66b7f1b42f305de2cf39c}\label{class_barycenter_a4441e368b3d66b7f1b42f305de2cf39c}} 
+void \mbox{\hyperlink{class_barycenter_a4441e368b3d66b7f1b42f305de2cf39c}{Set\+Next}} (\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set the next \mbox{\hyperlink{class_barycenter}{Barycenter}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_afd8d5c5fd51e5ced07e38fe5dfefe039}\label{class_barycenter_afd8d5c5fd51e5ced07e38fe5dfefe039}} 
+void \mbox{\hyperlink{class_barycenter_afd8d5c5fd51e5ced07e38fe5dfefe039}{Set\+Distance}} (int i, double)
+\begin{DoxyCompactList}\small\item\em Set the distance between atom i and nucleotide barycenter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a584c8eac0f5f9554779895dd001fb30a}\label{class_barycenter_a584c8eac0f5f9554779895dd001fb30a}} 
+double \mbox{\hyperlink{class_barycenter_a584c8eac0f5f9554779895dd001fb30a}{Get\+Distance}} (int i)
+\begin{DoxyCompactList}\small\item\em Get the distance between atom i and nucleotide barycenter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_aa9380695786b5afda093444f1af9c204}\label{class_barycenter_aa9380695786b5afda093444f1af9c204}} 
+void \mbox{\hyperlink{class_barycenter_aa9380695786b5afda093444f1af9c204}{Set\+Radius}} (double)
+\begin{DoxyCompactList}\small\item\em Set the distance between the farther atom and nucleotide barycenter. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a4393d2a23a2fc732de1e26825a50c8e1}\label{class_barycenter_a4393d2a23a2fc732de1e26825a50c8e1}} 
+double \mbox{\hyperlink{class_barycenter_a4393d2a23a2fc732de1e26825a50c8e1}{Get\+Radius}} ()
+\begin{DoxyCompactList}\small\item\em Get the distance between the farther atom and nucleotide barycenter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_barycenter_ae09954591213aeab0db6b58bf6daed7f}\label{class_barycenter_ae09954591213aeab0db6b58bf6daed7f}} 
+int \mbox{\hyperlink{class_barycenter_ae09954591213aeab0db6b58bf6daed7f}{f\+Bary\+Num}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_barycenter}{Barycenter}} number. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ab13851d50f25873e7e245d4982b21967}\label{class_barycenter_ab13851d50f25873e7e245d4982b21967}} 
+double \mbox{\hyperlink{class_barycenter_ab13851d50f25873e7e245d4982b21967}{f\+Distance\+Tab}} \mbox{[}33\mbox{]}
+\begin{DoxyCompactList}\small\item\em distance table \mbox{[}0..32\mbox{]} (11 hydrogens!) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a03bff25317474f81a60197f18c129e87}\label{class_barycenter_a03bff25317474f81a60197f18c129e87}} 
+double {\bfseries f\+Radius}
+\item 
+\mbox{\Hypertarget{class_barycenter_ad6bfb21eb74abf5774dac016b82f6fc4}\label{class_barycenter_ad6bfb21eb74abf5774dac016b82f6fc4}} 
+double \mbox{\hyperlink{class_barycenter_ad6bfb21eb74abf5774dac016b82f6fc4}{f\+CenterX}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+X coordinate\char`\"{} of this nucelotide \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ac4ee24e13001d0085c70bafef182be11}\label{class_barycenter_ac4ee24e13001d0085c70bafef182be11}} 
+double \mbox{\hyperlink{class_barycenter_ac4ee24e13001d0085c70bafef182be11}{f\+CenterY}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Y coordinate\char`\"{} of this nucelotide \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_aa4d12ab36eca7dab94ce6bd740cb4956}\label{class_barycenter_aa4d12ab36eca7dab94ce6bd740cb4956}} 
+double \mbox{\hyperlink{class_barycenter_aa4d12ab36eca7dab94ce6bd740cb4956}{f\+CenterZ}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Z coordinate\char`\"{} of this nucelotide \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ad8a7828090979cf00e9bc25870199946}\label{class_barycenter_ad8a7828090979cf00e9bc25870199946}} 
+double \mbox{\hyperlink{class_barycenter_ad8a7828090979cf00e9bc25870199946}{f\+Center\+BaseX}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+X coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a6686b017b8b53b0c2c48b657b37910bf}\label{class_barycenter_a6686b017b8b53b0c2c48b657b37910bf}} 
+double \mbox{\hyperlink{class_barycenter_a6686b017b8b53b0c2c48b657b37910bf}{f\+Center\+BaseY}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Y coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ad2a9f1956932a6a7fb2cb3362e16f81d}\label{class_barycenter_ad2a9f1956932a6a7fb2cb3362e16f81d}} 
+double \mbox{\hyperlink{class_barycenter_ad2a9f1956932a6a7fb2cb3362e16f81d}{f\+Center\+BaseZ}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Z coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a71fed2802bfc510c2242506ecd0ff3b5}\label{class_barycenter_a71fed2802bfc510c2242506ecd0ff3b5}} 
+double \mbox{\hyperlink{class_barycenter_a71fed2802bfc510c2242506ecd0ff3b5}{f\+Center\+SugarX}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+X coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ac7f03c92db090f17d7e116c622e1eb3e}\label{class_barycenter_ac7f03c92db090f17d7e116c622e1eb3e}} 
+double \mbox{\hyperlink{class_barycenter_ac7f03c92db090f17d7e116c622e1eb3e}{f\+Center\+SugarY}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Y coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_aed03c87c8bb58d98d57a8decf4bd9d54}\label{class_barycenter_aed03c87c8bb58d98d57a8decf4bd9d54}} 
+double \mbox{\hyperlink{class_barycenter_aed03c87c8bb58d98d57a8decf4bd9d54}{f\+Center\+SugarZ}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Z coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_ab9eb863897caeffc2b382b449c71a800}\label{class_barycenter_ab9eb863897caeffc2b382b449c71a800}} 
+double \mbox{\hyperlink{class_barycenter_ab9eb863897caeffc2b382b449c71a800}{f\+Center\+PhosphateX}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+X coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a3a94fbbe07fb4c10cedfefa0caaff016}\label{class_barycenter_a3a94fbbe07fb4c10cedfefa0caaff016}} 
+double \mbox{\hyperlink{class_barycenter_a3a94fbbe07fb4c10cedfefa0caaff016}{f\+Center\+PhosphateY}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Y coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_barycenter_a046ee21a210eef95ba636f3ade2a75b7}\label{class_barycenter_a046ee21a210eef95ba636f3ade2a75b7}} 
+double \mbox{\hyperlink{class_barycenter_a046ee21a210eef95ba636f3ade2a75b7}{f\+Center\+PhosphateZ}}
+\begin{DoxyCompactList}\small\item\em \char`\"{}\+Z coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_molecule}{Molecule}} Class. 
+
+This Class define \mbox{\hyperlink{class_molecule}{Molecule}} model ... 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_barycenter_aed3ef68d838fba1b65cb9fa3af025290}\label{class_barycenter_aed3ef68d838fba1b65cb9fa3af025290}} 
+\index{Barycenter@{Barycenter}!Barycenter@{Barycenter}}
+\index{Barycenter@{Barycenter}!Barycenter@{Barycenter}}
+\doxysubsubsection{\texorpdfstring{Barycenter()}{Barycenter()}}
+{\footnotesize\ttfamily Barycenter\+::\+Barycenter (\begin{DoxyParamCaption}\item[{int}]{b\+Num,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z,  }\item[{double}]{Bx,  }\item[{double}]{By,  }\item[{double}]{Bz,  }\item[{double}]{Sx,  }\item[{double}]{Sy,  }\item[{double}]{Sz,  }\item[{double}]{Px,  }\item[{double}]{Py,  }\item[{double}]{Pz }\end{DoxyParamCaption})}
+
+
+
+Second constructor. 
+
+$<$\mbox{\hyperlink{class_barycenter}{Barycenter}} number
+
+$<$ \char`\"{}\+X coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Y coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Z coordinate\char`\"{} of this Base \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+X coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Y coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Z coordinate\char`\"{} of this Sugar \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+X coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Y coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+$<$ \char`\"{}\+Z coordinate\char`\"{} of this Phosphate \mbox{\hyperlink{class_barycenter}{Barycenter}}
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_barycenter_abb3908727436e76dd018597880b984f7}\label{class_barycenter_abb3908727436e76dd018597880b984f7}} 
+\index{Barycenter@{Barycenter}!GetID@{GetID}}
+\index{GetID@{GetID}!Barycenter@{Barycenter}}
+\doxysubsubsection{\texorpdfstring{GetID()}{GetID()}}
+{\footnotesize\ttfamily int Barycenter\+::\+Get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the first. 
+
+Get number \mbox{\hyperlink{class_barycenter}{Barycenter}} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/include/\mbox{\hyperlink{_p_d_bbarycenter_8hh}{P\+D\+Bbarycenter.\+hh}}\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/src/\mbox{\hyperlink{_p_d_bbarycenter_8cc}{P\+D\+Bbarycenter.\+cc}}\end{DoxyCompactItemize}

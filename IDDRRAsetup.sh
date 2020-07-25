@@ -1,0 +1,9 @@
+source $HOME/IDDRRA/Geant4/geant4.10.06.p01-install/bin/geant4.sh
+export G4INSTALL=$HOME/IDDRRA/Geant4/geant4.10.06.p01-install/
+export G4LEVELGAMMADATA=$G4INSTALL/share/Geant4-10.6.1/data/PhotonEvaporation5.5
+export G4NEUTRONXSDATA=$G4INSTALL/share/Geant4-10.6.1/data/G4PARTICLEXS2.1/neutron
+export G4LEDATA=$G4INSTALL/share/Geant4-10.6.1/data/G4EMLOW7.9.1
+export G4SAIDXSDATA=$G4INSTALL/share/Geant4-10.6.1/data/G4SAIDDATA2.0
+export G4RADIOACTIVEDATA=$G4INSTALL/share/Geant4-10.6.1/data/RadioactiveDecay5.4
+export G4NEUTRONHPDATA=$G4INSTALL/share/Geant4-10.6.1/data/G4NDL4.6
+export G4ENSDFSTATEDATA=$G4INSTALL/share/Geant4-10.6.1/data/G4ENSDFSTATE2.2

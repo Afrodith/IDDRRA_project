@@ -1,0 +1,44 @@
+\hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser}{}\doxysection{G4\+D\+N\+A\+P\+A\+R\+S\+ER\+::Command\+Line\+Parser Class Reference}
+\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser}\index{G4DNAPARSER::CommandLineParser@{G4DNAPARSER::CommandLineParser}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a53bc3ea8d40d82b903475c1156861f3e}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a53bc3ea8d40d82b903475c1156861f3e}} 
+int {\bfseries Parse} (int \&argc, char $\ast$$\ast$argv)
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a57b1a372fe5128fb429322d8457de5c7}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a57b1a372fe5128fb429322d8457de5c7}} 
+void {\bfseries Print\+Help} ()
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a1f6a03fb05b60d28b13d04f231309115}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a1f6a03fb05b60d28b13d04f231309115}} 
+bool {\bfseries Check\+If\+Not\+Handled\+Options\+Exists} (int \&argc, char $\ast$$\ast$argv)
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_ad36f9bcf458d41890bf77d54f8dd7ea3}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_ad36f9bcf458d41890bf77d54f8dd7ea3}} 
+void {\bfseries Correct\+Remaining\+Options} (int \&argc, char $\ast$$\ast$argv)
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a8e0f1ae5cd1a72ee7b478eec5028e6b9}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a8e0f1ae5cd1a72ee7b478eec5028e6b9}} 
+void {\bfseries Add\+Command} (const G4\+String \&marker, Command\+::\+Type, const G4\+String \&description=\char`\"{}\char`\"{}, const G4\+String \&default\+Option=\char`\"{}\char`\"{}, const G4\+String \&option\+Name=\char`\"{}\char`\"{})
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a03409dffb64a3a1d3be289ce51d69904}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a03409dffb64a3a1d3be289ce51d69904}} 
+\mbox{\hyperlink{class_g4_d_n_a_p_a_r_s_e_r_1_1_command}{Command}} $\ast$ {\bfseries Find\+Command} (const G4\+String \&marker)
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a2e30fe94aa862b530d3bc370cc237e83}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a2e30fe94aa862b530d3bc370cc237e83}} 
+\mbox{\hyperlink{class_g4_d_n_a_p_a_r_s_e_r_1_1_command}{Command}} $\ast$ {\bfseries Get\+Command\+If\+Active} (const G4\+String \&marker)
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_ac9287dfa1acef4ca99eb085c2ba82cbe}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_ac9287dfa1acef4ca99eb085c2ba82cbe}} 
+G4bool {\bfseries Were\+Options\+Setup} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a13dfcfce4cd3b4ce6954b88581ed9a2e}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a13dfcfce4cd3b4ce6954b88581ed9a2e}} 
+static \mbox{\hyperlink{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser}{Command\+Line\+Parser}} $\ast$ {\bfseries Get\+Parser} ()
+\item 
+\mbox{\Hypertarget{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a42c2f8f96d4333343888ecf8eeca407f}\label{class_g4_d_n_a_p_a_r_s_e_r_1_1_command_line_parser_a42c2f8f96d4333343888ecf8eeca407f}} 
+static void {\bfseries Delete\+Instance} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/include/\mbox{\hyperlink{_command_line_parser_8hh}{Command\+Line\+Parser.\+hh}}\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/src/\mbox{\hyperlink{_command_line_parser_8cc}{Command\+Line\+Parser.\+cc}}\end{DoxyCompactItemize}

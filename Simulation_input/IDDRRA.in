@@ -1,0 +1,144 @@
+/run/initialize 
+#/control/execute  Simulation_input/vis.mac
+
+/control/verbose 2
+/tracking/verbose 0
+/event/verbose 0
+/gps/verbose 0
+
+#/IDDRRA/det/loadPDB	1ZBB.pdb
+/IDDRRA/det/loadPDB  /home/gate/IDDRRA/python/test.pdb
+
+#/IDDRRA/det/buildBoundingV
+/IDDRRA/det/drawAtomsWithBounding 
+
+/IDDRRA/event/setEnergyThres	17.5 eV
+/IDDRRA/event/setDistanceThres	10
+
+###   General Particle Source   ################################################
+/gps/pos/type Point
+#/gps/pos/type Volume   	#Point, Plane, Beam, Surface, Volume
+#/gps/pos/shape Para
+#/gps/pos/halfx 20.0 nm
+#/gps/pos/halfy 0.01 nm
+#/gps/pos/halfz 650. nm
+
+/gps/ang/type iso     	#iso, cos, planar, beam1d, beam2d, focused, user
+/gps/ang/mintheta     	     0. deg
+/gps/ang/maxtheta     	180. deg
+/gps/ang/minphi	      0. deg
+/gps/ang/maxphi	 360. deg
+
+
+
+/gps/particle	e-
+/gps/ene/type	Arb
+
+/gps/hist/type	arb
+/gps/hist/file  Simulation_input/electronSpect.dat
+/gps/hist/inter	Lin
+
+#/gps/pos/centre -100 93 190 nm
+#/gps/pos/centre 0 16.7 600 nm
+#/gps/pos/centre -30 0 0 nm
+/gps/pos/centre 0 0 0 nm
+################################################################################
+#/run/initialize
+
+/run/printProgress 100000
+
+/random/setSeeds 0 12
+
+#/run/beamOn 500000	# 4.133MeV --> 6.45Gy
+#/run/beamOn 1500000	#12.4MeV --> 19.35Gy
+#/run/beamOn 7800000 	#64.5MeV --> 100Gy
+#/run/beamOn 1560000    	#123.MeV --> 200Gy
+/run/beamOn 500000    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

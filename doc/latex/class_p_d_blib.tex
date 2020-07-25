@@ -1,0 +1,122 @@
+\hypertarget{class_p_d_blib}{}\doxysection{P\+D\+Blib Class Reference}
+\label{class_p_d_blib}\index{PDBlib@{PDBlib}}
+
+
+\mbox{\hyperlink{class_p_d_blib}{P\+D\+Blib}} Class.  
+
+
+
+
+{\ttfamily \#include $<$P\+D\+Blib.\+hh$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_p_d_blib_aa7a0f837bc2d1cbe40958be8de96ffa0}\label{class_p_d_blib_aa7a0f837bc2d1cbe40958be8de96ffa0}} 
+\mbox{\hyperlink{class_p_d_blib_aa7a0f837bc2d1cbe40958be8de96ffa0}{P\+D\+Blib}} ()
+\begin{DoxyCompactList}\small\item\em First constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_p_d_blib_a32b46a8ca2f22dcff86e12d331609d29}\label{class_p_d_blib_a32b46a8ca2f22dcff86e12d331609d29}} 
+\mbox{\hyperlink{class_p_d_blib_a32b46a8ca2f22dcff86e12d331609d29}{$\sim$\+P\+D\+Blib}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$ \mbox{\hyperlink{class_p_d_blib_ae25de9df2c38573f3aed79d5f7cae4ed}{Load}} (const std\+::string \&filename, unsigned short int \&is\+D\+NA, unsigned short int verbose)
+\begin{DoxyCompactList}\small\item\em Load P\+DB file into memory. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$ \mbox{\hyperlink{class_p_d_blib_ac4d03d1f6131b54f1035506b1c9cabc4}{Compute\+Nucleotide\+Barycenters}} (\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$molecule\+List\+Temp)
+\begin{DoxyCompactList}\small\item\em Compute nucleotide barycenter from memory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_d_blib_aa894c3919a46681968fde25859ee22d1}{Compute\+Bounding\+Volume\+Params}} (\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$molecule\+List\+Temp, double \&dX, double \&dY, double \&dZ, double \&tX, double \&tY, double \&tZ)
+\begin{DoxyCompactList}\small\item\em Compute the corresponding bounding volume parameters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_d_blib_a647be20ce6410237cb778ad46128df89}{Compute\+Nb\+Nucleotids\+Per\+Strand}} (\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$molecule\+List\+Temp)
+\begin{DoxyCompactList}\small\item\em Compute number of nucleotide per strand. \end{DoxyCompactList}\item 
+unsigned short int \mbox{\hyperlink{class_p_d_blib_a8000191133b2ef46f8ee5c3d9fe99beb}{Compute\+Match\+Edep\+D\+NA}} (\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$, \mbox{\hyperlink{class_molecule}{Molecule}} $\ast$, double x, double y, double z, int \&num\+Strand, int \&num\+Nucleotid, int \&code\+Residue)
+\begin{DoxyCompactList}\small\item\em Compute if energy is deposited in per atom. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_p_d_blib}{P\+D\+Blib}} Class. 
+
+This Class define \mbox{\hyperlink{class_molecule}{Molecule}} model ... 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_p_d_blib_aa894c3919a46681968fde25859ee22d1}\label{class_p_d_blib_aa894c3919a46681968fde25859ee22d1}} 
+\index{PDBlib@{PDBlib}!ComputeBoundingVolumeParams@{ComputeBoundingVolumeParams}}
+\index{ComputeBoundingVolumeParams@{ComputeBoundingVolumeParams}!PDBlib@{PDBlib}}
+\doxysubsubsection{\texorpdfstring{ComputeBoundingVolumeParams()}{ComputeBoundingVolumeParams()}}
+{\footnotesize\ttfamily void P\+D\+Blib\+::\+Compute\+Bounding\+Volume\+Params (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$}]{molecule\+List\+Temp,  }\item[{double \&}]{dX,  }\item[{double \&}]{dY,  }\item[{double \&}]{dZ,  }\item[{double \&}]{tX,  }\item[{double \&}]{tY,  }\item[{double \&}]{tZ }\end{DoxyParamCaption})}
+
+
+
+Compute the corresponding bounding volume parameters. 
+
+the corresponding bounding volume parameters
+
+the corresponding bounding volume parameters to build a box from atoms coordinates \mbox{\Hypertarget{class_p_d_blib_a8000191133b2ef46f8ee5c3d9fe99beb}\label{class_p_d_blib_a8000191133b2ef46f8ee5c3d9fe99beb}} 
+\index{PDBlib@{PDBlib}!ComputeMatchEdepDNA@{ComputeMatchEdepDNA}}
+\index{ComputeMatchEdepDNA@{ComputeMatchEdepDNA}!PDBlib@{PDBlib}}
+\doxysubsubsection{\texorpdfstring{ComputeMatchEdepDNA()}{ComputeMatchEdepDNA()}}
+{\footnotesize\ttfamily unsigned short int P\+D\+Blib\+::\+Compute\+Match\+Edep\+D\+NA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$}]{Barycenter\+List,  }\item[{\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$}]{molecule\+List\+Temp,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z,  }\item[{int \&}]{num\+Strand,  }\item[{int \&}]{num\+Nucleotid,  }\item[{int \&}]{code\+Residue }\end{DoxyParamCaption})}
+
+
+
+Compute if energy is deposited in per atom. 
+
+Compute barycenters.
+
+Compute barycenters and its coordinate for nucleotides \mbox{\Hypertarget{class_p_d_blib_a647be20ce6410237cb778ad46128df89}\label{class_p_d_blib_a647be20ce6410237cb778ad46128df89}} 
+\index{PDBlib@{PDBlib}!ComputeNbNucleotidsPerStrand@{ComputeNbNucleotidsPerStrand}}
+\index{ComputeNbNucleotidsPerStrand@{ComputeNbNucleotidsPerStrand}!PDBlib@{PDBlib}}
+\doxysubsubsection{\texorpdfstring{ComputeNbNucleotidsPerStrand()}{ComputeNbNucleotidsPerStrand()}}
+{\footnotesize\ttfamily void P\+D\+Blib\+::\+Compute\+Nb\+Nucleotids\+Per\+Strand (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$}]{molecule\+List\+Temp }\end{DoxyParamCaption})}
+
+
+
+Compute number of nucleotide per strand. 
+
+Compute number of nucleotide per strand for D\+NA \mbox{\Hypertarget{class_p_d_blib_ac4d03d1f6131b54f1035506b1c9cabc4}\label{class_p_d_blib_ac4d03d1f6131b54f1035506b1c9cabc4}} 
+\index{PDBlib@{PDBlib}!ComputeNucleotideBarycenters@{ComputeNucleotideBarycenters}}
+\index{ComputeNucleotideBarycenters@{ComputeNucleotideBarycenters}!PDBlib@{PDBlib}}
+\doxysubsubsection{\texorpdfstring{ComputeNucleotideBarycenters()}{ComputeNucleotideBarycenters()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$ P\+D\+Blib\+::\+Compute\+Nucleotide\+Barycenters (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_molecule}{Molecule}} $\ast$}]{molecule\+List\+Temp }\end{DoxyParamCaption})}
+
+
+
+Compute nucleotide barycenter from memory. 
+
+Compute barycenters.
+
+Compute barycenters and its coordinate for nucleotides 
+\begin{DoxyParams}{Parameters}
+{\em molecule\+List\+Temp} & $\ast$ molecule\+List \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_barycenter}{Barycenter}} $\ast$ 
+\end{DoxyReturn}
+molecs-\/$>$push\+\_\+back($\ast$molecule\+List\+Temp);\mbox{\Hypertarget{class_p_d_blib_ae25de9df2c38573f3aed79d5f7cae4ed}\label{class_p_d_blib_ae25de9df2c38573f3aed79d5f7cae4ed}} 
+\index{PDBlib@{PDBlib}!Load@{Load}}
+\index{Load@{Load}!PDBlib@{PDBlib}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_molecule}{Molecule}} $\ast$ P\+D\+Blib\+::\+Load (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename,  }\item[{unsigned short int \&}]{is\+D\+NA,  }\item[{unsigned short int}]{verbose = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Load P\+DB file into memory. 
+
+Load a P\+DB file into memory.
+
+molecule (polymer,?), read line, key words 
+\begin{DoxyParams}{Parameters}
+{\em filename} & G4\+String for filename \\
+\hline
+{\em is\+D\+NA} & \\
+\hline
+{\em verbose} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of molecules 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/include/\mbox{\hyperlink{_p_d_blib_8hh}{P\+D\+Blib.\+hh}}\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/src/\mbox{\hyperlink{_p_d_blib_8cc}{P\+D\+Blib.\+cc}}\end{DoxyCompactItemize}

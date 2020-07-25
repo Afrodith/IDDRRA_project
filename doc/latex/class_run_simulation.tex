@@ -1,0 +1,117 @@
+\hypertarget{class_run_simulation}{}\doxysection{Run\+Simulation Class Reference}
+\label{class_run_simulation}\index{RunSimulation@{RunSimulation}}
+
+
+Inheritance diagram for Run\+Simulation\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_run_simulation__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Run\+Simulation\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_run_simulation__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_run_simulation_af0d792294818d599eaa542e90f1b1ef7}\label{class_run_simulation_af0d792294818d599eaa542e90f1b1ef7}} 
+void \mbox{\hyperlink{class_run_simulation_af0d792294818d599eaa542e90f1b1ef7}{start\+Sim}} ()
+\begin{DoxyCompactList}\small\item\em Construct the thread and move the execution of the simulation to it in order to run in parallel. Set the commmunication of the main thread and seprate thread and starts the execution process. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a25ea22f118c4ceed73424dd684ffe954}\label{class_run_simulation_a25ea22f118c4ceed73424dd684ffe954}} 
+void \mbox{\hyperlink{class_run_simulation_a25ea22f118c4ceed73424dd684ffe954}{stop\+Sim}} ()
+\begin{DoxyCompactList}\small\item\em Kills the execution of the simulation in the seprate thread when is manually selected by the user. Clears and resets the timer and progressbar. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a39fcb13fde8aef474ab12d6d48682b2a}\label{class_run_simulation_a39fcb13fde8aef474ab12d6d48682b2a}} 
+void \mbox{\hyperlink{class_run_simulation_a39fcb13fde8aef474ab12d6d48682b2a}{completed}} ()
+\begin{DoxyCompactList}\small\item\em When the simulation is finished, writes the output file name in a line edit and enables the user to proceed in the Simulation Analysis dialog. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a5684bdb43945738941379831c70aaf71}\label{class_run_simulation_a5684bdb43945738941379831c70aaf71}} 
+void \mbox{\hyperlink{class_run_simulation_a5684bdb43945738941379831c70aaf71}{previous}} ()
+\begin{DoxyCompactList}\small\item\em Closes the current dialog. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_aa5d817bf411a7b59dfe1d9cb23287754}\label{class_run_simulation_aa5d817bf411a7b59dfe1d9cb23287754}} 
+void \mbox{\hyperlink{class_run_simulation_aa5d817bf411a7b59dfe1d9cb23287754}{dat\+File}} (Q\+String)
+\begin{DoxyCompactList}\small\item\em Gets the name of the simulation\textquotesingle{}s generated .dat file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a26bb605951ecd8853bbe873fd0021ac1}\label{class_run_simulation_a26bb605951ecd8853bbe873fd0021ac1}} 
+void \mbox{\hyperlink{class_run_simulation_a26bb605951ecd8853bbe873fd0021ac1}{D\+N\+A\+\_\+analysis}} ()
+\begin{DoxyCompactList}\small\item\em Open the analysis dialog when the execution of the simulation is finished and load the output .dat file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_abace8949b356a4e44bda6c36777ca48c}\label{class_run_simulation_abace8949b356a4e44bda6c36777ca48c}} 
+void \mbox{\hyperlink{class_run_simulation_abace8949b356a4e44bda6c36777ca48c}{incr\+\_\+progress\+Bar}} ()
+\begin{DoxyCompactList}\small\item\em Increment the progressbar as the simulation is running. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_acbbab04963661fcf9e825dffd38c2bfe}\label{class_run_simulation_acbbab04963661fcf9e825dffd38c2bfe}} 
+void \mbox{\hyperlink{class_run_simulation_acbbab04963661fcf9e825dffd38c2bfe}{simulation\+Finished}} ()
+\begin{DoxyCompactList}\small\item\em Is called by the separate thead when the execution of the simulation is finished uninterrupted. Clears and resets the timer and progressbar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_run_simulation_a6320d1e1803036d9dba61449dd626fd5}\label{class_run_simulation_a6320d1e1803036d9dba61449dd626fd5}} 
+void \mbox{\hyperlink{class_run_simulation_a6320d1e1803036d9dba61449dd626fd5}{stop\+Simulation}} ()
+\begin{DoxyCompactList}\small\item\em signal to stop the running simulation \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a5010ae76c5004171800f1adcc71eccab}\label{class_run_simulation_a5010ae76c5004171800f1adcc71eccab}} 
+void \mbox{\hyperlink{class_run_simulation_a5010ae76c5004171800f1adcc71eccab}{close\+Program}} ()
+\begin{DoxyCompactList}\small\item\em Signal that closes the dialog and clean reserved memory. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_run_simulation_a09a30b2eb968a6acc99409fd8b1ceed4}{Run\+Simulation}} (Q\+Widget $\ast$parent=nullptr, Q\+String str=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em class constructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_run_simulation_a50ecfc110d2fc7a1ff8fc24dc832b4bb}\label{class_run_simulation_a50ecfc110d2fc7a1ff8fc24dc832b4bb}} 
+Q\+String \mbox{\hyperlink{class_run_simulation_a50ecfc110d2fc7a1ff8fc24dc832b4bb}{dna\+In}}
+\begin{DoxyCompactList}\small\item\em public string that holds the .mac filename \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a79805fef974350291578c1c40934e04c}\label{class_run_simulation_a79805fef974350291578c1c40934e04c}} 
+Q\+Thread $\ast$ \mbox{\hyperlink{class_run_simulation_a79805fef974350291578c1c40934e04c}{thread}}
+\begin{DoxyCompactList}\small\item\em Thread wrapper. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a5a6cca5ee6ddf43f90666f67a2e2533d}\label{class_run_simulation_a5a6cca5ee6ddf43f90666f67a2e2533d}} 
+\mbox{\hyperlink{classexec_simulation}{exec\+Simulation}} $\ast$ \mbox{\hyperlink{class_run_simulation_a5a6cca5ee6ddf43f90666f67a2e2533d}{worker}}
+\begin{DoxyCompactList}\small\item\em simulation execution pointer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_a8307cf6b2270ae0e61f62734308b201a}\label{class_run_simulation_a8307cf6b2270ae0e61f62734308b201a}} 
+Q\+String \mbox{\hyperlink{class_run_simulation_a8307cf6b2270ae0e61f62734308b201a}{dat}}
+\begin{DoxyCompactList}\small\item\em String that holds the generated .dat file from the simulation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_acdb5f62530a30434541537fe05b98872}\label{class_run_simulation_acdb5f62530a30434541537fe05b98872}} 
+\mbox{\hyperlink{class_simulation_analysis}{Simulation\+Analysis}} $\ast$ \mbox{\hyperlink{class_run_simulation_acdb5f62530a30434541537fe05b98872}{dna\+Analysis}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_simulation_analysis}{Simulation\+Analysis}} dialog pointer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_adc7569dcba7784d2a50edf3bfdb7ca8a}\label{class_run_simulation_adc7569dcba7784d2a50edf3bfdb7ca8a}} 
+Q\+Timer $\ast$ \mbox{\hyperlink{class_run_simulation_adc7569dcba7784d2a50edf3bfdb7ca8a}{timer}}
+\begin{DoxyCompactList}\small\item\em timer utility that starts the execution in the separate thread \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_run_simulation_ac30848f413c746d88e4311bb3e41993f}\label{class_run_simulation_ac30848f413c746d88e4311bb3e41993f}} 
+int \mbox{\hyperlink{class_run_simulation_ac30848f413c746d88e4311bb3e41993f}{count}} =0
+\begin{DoxyCompactList}\small\item\em Progressbar incrementation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_run_simulation_a07d53379aa846f58ac4ca56033d888cd}\label{class_run_simulation_a07d53379aa846f58ac4ca56033d888cd}} 
+void \mbox{\hyperlink{class_run_simulation_a07d53379aa846f58ac4ca56033d888cd}{close\+Event}} (Q\+Close\+Event $\ast$)
+\begin{DoxyCompactList}\small\item\em Closes the dialog and deletes pointers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_run_simulation_a09a30b2eb968a6acc99409fd8b1ceed4}\label{class_run_simulation_a09a30b2eb968a6acc99409fd8b1ceed4}} 
+\index{RunSimulation@{RunSimulation}!RunSimulation@{RunSimulation}}
+\index{RunSimulation@{RunSimulation}!RunSimulation@{RunSimulation}}
+\doxysubsubsection{\texorpdfstring{RunSimulation()}{RunSimulation()}}
+{\footnotesize\ttfamily Run\+Simulation\+::\+Run\+Simulation (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr},  }\item[{Q\+String}]{str = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+class constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Q\+Widget} & parent \\
+\hline
+{\em .\+mac} & filename \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/include/\mbox{\hyperlink{_run_simulation_8h}{Run\+Simulation.\+h}}\item 
+/home/afrodith/\+I\+D\+D\+R\+R\+A\+\_\+v3.\+6/\+I\+D\+D\+R\+R\+A\+\_\+paper/src/Run\+Simulation.\+cpp\end{DoxyCompactItemize}

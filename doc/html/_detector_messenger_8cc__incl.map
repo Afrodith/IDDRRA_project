@@ -1,0 +1,18 @@
+<map id="/home/afrodith/IDDRRA_v3.6/IDDRRA_paper/src/DetectorMessenger.cc" name="/home/afrodith/IDDRRA_v3.6/IDDRRA_paper/src/DetectorMessenger.cc">
+<area shape="rect" id="node1" title="Implementation of the DetectorMessenger class." alt="" coords="435,5,607,61"/>
+<area shape="rect" id="node2" href="$_detector_messenger_8hh.html" title="Definition of the DetectorMessenger class." alt="" coords="93,109,247,136"/>
+<area shape="rect" id="node5" href="$_detector_construction_8hh.html" title="Definition of the DetectorConstruction class." alt="" coords="272,109,436,136"/>
+<area shape="rect" id="node14" title=" " alt="" coords="460,109,581,136"/>
+<area shape="rect" id="node15" title=" " alt="" coords="605,109,772,136"/>
+<area shape="rect" id="node16" title=" " alt="" coords="796,109,997,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="164,184,245,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,184,140,211"/>
+<area shape="rect" id="node6" title=" " alt="" coords="269,184,372,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="397,184,615,211"/>
+<area shape="rect" id="node8" href="$_p_d_blib_8hh.html" title="Definition of the PDBlib class." alt="" coords="640,184,721,211"/>
+<area shape="rect" id="node9" href="$_p_d_bbarycenter_8hh.html" title="Definition of the Barycenter class." alt="" coords="541,259,671,285"/>
+<area shape="rect" id="node10" href="$_p_d_bmolecule_8hh.html" title="Definition of the PDBmolecule class." alt="" coords="695,259,815,285"/>
+<area shape="rect" id="node11" href="$_p_d_bresidue_8hh.html" title="Definition of the PDBresidue class." alt="" coords="700,333,811,360"/>
+<area shape="rect" id="node12" href="$_p_d_batom_8hh.html" title="Definition of the Atom class." alt="" coords="707,408,804,435"/>
+<area shape="rect" id="node13" title=" " alt="" coords="728,483,783,509"/>
+</map>
